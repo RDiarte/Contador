@@ -1,10 +1,15 @@
+import { Container } from "react-bootstrap";
 import "./App.css";
+import Titulo from "./components/Titulo";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Contador from "./components/contador";
 
 function App() {
   return (
-    <div>
-      <h1>Primer app con React</h1>
-    </div>
+    <Container>
+      <Titulo></Titulo>
+      <Contador></Contador>
+    </Container>
   );
 }
 
